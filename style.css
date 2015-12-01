@@ -1,0 +1,256 @@
+
+h5
+{
+  position:relative;
+  top:60px;
+  color:white;
+}
+.circle
+{
+  height:150px;
+  width:150px;
+  background-color:red;
+  border-radius:100%;
+  opacity:0.5;
+  margin:auto;
+  position:relative;
+  transition:500ms;
+  
+}
+.circle:hover
+{
+  transition:500ms;
+  background-color:green;
+}
+.circle2
+{
+  height:500px;
+  width:500px;
+  background-color:green;
+  border-radius:100%;
+  opacity:0.5;
+  position:relative;
+  transition:500ms;
+}
+.videos
+{
+  height:150px;
+  width:150px;
+  background-color:red;
+  border-radius:100%;
+  opacity:0.5;
+  margin:auto;
+  position:relative;
+  transition:500ms;
+  
+}
+.videos:hover
+{
+  transition:500ms;
+  background-color:green;
+}
+.videos2
+{
+  height:500px;
+  width:500px;
+  background-color:green;
+  border-radius:100%;
+  opacity:0.5;
+  position:absolute;
+  transition:500ms;
+}
+
+img
+{
+  height:175px;
+  width:175px;
+}
+.back
+{
+  background-attachment:fixed;
+  background:url(http://cdn-media-1.lifehack.org/wp-content/files/2013/04/78-1024x640.jpg);
+
+}
+.back2
+{
+  background:url(http://wallpapercave.com/wp/aZlqiAT.png);
+}
+.back3
+{
+  
+  background:url(https://lh3.googleusercontent.com/-4lFZAiWeVxU/VZ17vbBb65I/AAAAAAAACTo/utYmNniG1VM/w1600-h900/rochesterday.png);
+
+}
+.back4
+{
+  background:url(http://mycolorscreen.com/wp-content/uploads/users/mcritter42@XDA/7.jpg);
+}
+.back5
+{
+  
+  background-attachment:fixed;
+  background-size:100% 100%;
+  background:url(http://fdwl.net/wp-content/uploads/2015/02/HD-starry-night-sky-wallpaper-1024x576.jpg);
+
+}
+.back6
+{
+  background:url(http://4.bp.blogspot.com/-ci8zjNrp50I/U_yCxyehuzI/AAAAAAAADX4/uiAIDRcpUB4/s1600/ahagzjsozh.jpg);
+}
+#worldclock
+{
+  font-size:150%;
+  top:10px;
+  position:relative;
+  color:white;
+  font-family:cursive;
+}
+ul
+{
+  list-style-type: none;
+}
+
+.window {
+  display: block;
+  position: relative;
+  width: 360px;
+  height: 55px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom:0px;
+  margin-right:0;
+  border-radius: 5px;
+  -webkit-transition: height 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+          transition: height 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.window.winOpen {
+  height: 590px;
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+.window.winOpen .headerMenu {
+  background: rgba(0, 0, 0, 0.5);
+}
+.window .headerMenu {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 55px;
+  overflow: hidden;
+  margin-bottom: 1%;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: background 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+          transition: background 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+.window .headerMenu .header {
+  height: 55px;
+  position: relative;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+
+.window .headerMenu .header .title {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  color: #e1e1e1;
+  font-family: "Roboto", sans-serif;
+  font-weigth: 700;
+  letter-spacing: 10px;
+  font-size: 20px;
+  padding-left: 3%;
+  line-height: 55px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.window .headerMenu .header .burgerContainer {
+  display: inline-block;
+  position: relative;
+  float: right;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 0;
+  padding-right: 2%;
+  cursor: pointer;
+}
+
+
+
+.window .headerMenu .header .burgerContainer .burger {
+  display: block;
+  position: relative;
+  top: 50%;
+  width: 20px;
+  height: 16px;
+  -webkit-transform: translateY(-50%) rotate(0deg);
+      -ms-transform: translateY(-50%) rotate(0deg);
+          transform: translateY(-50%) rotate(0deg);
+  margin: 0 auto;
+  overflow: hidden;
+  -webkit-transition: all 0.75s cubic-bezier(0.55, 0, 0.1, 1);
+          transition: all 0.75s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.window .headerMenu .header .burgerContainer .burger .bar {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+          transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+.window .headerMenu .header .burgerContainer .burger .bar.topBar {
+  -webkit-transform: translateY(0px) rotate(0deg);
+      -ms-transform: translateY(0px) rotate(0deg);
+          transform: translateY(0px) rotate(0deg);
+}
+.window .headerMenu .header .burgerContainer .burger .bar.midBar {
+  -webkit-transform: translateY(7px) rotate(0deg) translateX(0);
+      -ms-transform: translateY(7px) rotate(0deg) translateX(0);
+          transform: translateY(7px) rotate(0deg) translateX(0);
+  background-color: white;
+}
+.window .headerMenu .header .burgerContainer .burger .bar.btmBar {
+  -webkit-transform: translateY(14px) rotate(0deg);
+      -ms-transform: translateY(14px) rotate(0deg);
+          transform: translateY(14px) rotate(0deg);
+}
+.window .headerMenu .header.menuOpen:after {
+  width: 0;
+  right: 27px;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.window .headerMenu .header.menuOpen .burgerContainer .burger {
+  -webkit-transform: translateY(-50%) rotate(-90deg);
+      -ms-transform: translateY(-50%) rotate(-90deg);
+          transform: translateY(-50%) rotate(-90deg);
+}
+.window .headerMenu .header.menuOpen .burgerContainer .burger .bar {
+  -webkit-transition-delay: 10s;
+          transition-delay: 10s;
+}
+
+.window .content {
+  display: block;
+  position: relative;
+}
+.window .content .links {
+  width: 98%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  font-size: 0;
+}
+
