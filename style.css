@@ -113,24 +113,24 @@ ul
 .window {
   display: block;
   position: relative;
-  width: 360px;
+  width: 45px;
   height: 55px;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.6);
-  margin-bottom:0px;
+  margin-top:-500px;
   margin-right:0;
   border-radius: 5px;
-  -webkit-transition: height 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-          transition: height 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
+  
 }
-.window.winOpen {
+.window.winOpen 
+{
+  width:360px;
   height: 590px;
   -webkit-transition-delay: 0.25s;
           transition-delay: 0.25s;
 }
 .window.winOpen .headerMenu {
+  width:45px;
   background: rgba(0, 0, 0, 0.5);
 }
 .window .headerMenu {
